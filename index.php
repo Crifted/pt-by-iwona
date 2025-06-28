@@ -525,20 +525,28 @@
                 box-shadow: var(--shadow-lg);
             }
 
-            /* About Section */
-            .about__image {
-                width: 100%;
-                height: 400px;
-                border-radius: var(--radius-lg);
-                overflow: hidden;
-                box-shadow: var(--shadow-md);
-                background: linear-gradient(45deg, #ff9a9e, #fecfef);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                font-size: 3rem;
-            }
+            /* About Section - FIXED */
+.about__image {
+    width: 100%;
+    min-height: 350px;
+    max-height: 850px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    aspect-ratio: 4/5;
+}
+
+.about__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    transition: transform var(--transition-slow);
+}
+
+.about__image:hover img {
+    transform: scale(1.05);
+}
 
             .about__title {
                 font-size: clamp(1.75rem, 3vw, 2.25rem);
