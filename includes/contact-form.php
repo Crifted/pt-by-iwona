@@ -19,7 +19,7 @@ if (empty($errors)) {
     $recipient = "yvonnekjagi@hotmail.com";
     
     // E-mail onderwerp
-    $email_subject = "Nieuw bericht van PT BY IWONA website: $subject";
+    $email_subject = "Nieuw bericht van KOZA Fit website: $subject";
     
     // E-mail inhoud
     $email_content = "Naam: $name\n";

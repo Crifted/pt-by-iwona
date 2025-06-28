@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT BY IWONA | Premium Personal Training</title>
+    <title>KOZA Fit| Premium Personal Training</title>
     
     <!-- SEO verbeteringen -->
-    <meta name="description" content="Personal Training met PT BY IWONA. Professionele begeleiding voor moeders door een moeder. Persoonlijke training, groepslessen en voedingsadvies.">
+    <meta name="description" content="Personal Training met KOZA Fit. Professionele begeleiding voor moeders door een moeder. Persoonlijke training, groepslessen en voedingsadvies.">
     <meta name="keywords" content="personal trainer, personal training, fitness moeder, fitness na zwangerschap, groepslessen, HIIT, voedingsadvies, Waspik, Hilvarenbeek">
     
     <!-- Favicon -->
@@ -36,7 +36,7 @@
     <!-- Header -->
     <header class="header" id="header">
         <div class="container header__container">
-            <a href="#" class="logo">PT BY <span>IWONA</span></a>
+            <a href="#" class="logo">KOZA <span>Fit</span></a>
             <div class="nav__toggle" id="nav-toggle">
                 <span></span>
                 <span></span>

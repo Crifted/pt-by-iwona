@@ -126,4 +126,30 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }, 5000);
     }
+
+    // Voeg dit toe aan het einde van script.js (voor de laatste }); )
+
+    // Background image rotation
+    const backgrounds = document.querySelectorAll('.hero__background');
+    if (backgrounds.length > 1) {
+        let currentIndex = 0;
+
+        function rotateBackgrounds() {
+            // Remove active class from current image
+            backgrounds[currentIndex].classList.remove('active');
+            
+            // Move to next image
+            currentIndex = (currentIndex + 1) % backgrounds.length;
+            
+            // Add active class to new image
+            backgrounds[currentIndex].classList.add('active');
+        }
+
+        // Rotate every 5 seconds
+        setInterval(rotateBackgrounds, 5000);
+    }
+
+    // Live status toggle (je moeder kan dit handmatig aan/uit zetten)
+    // Om offline te zetten: document.querySelector('.live-status').style.display = 'none';
+    // Om online te zetten: document.querySelector('.live-status').style.dis
 });

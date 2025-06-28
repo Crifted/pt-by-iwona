@@ -3,7 +3,7 @@
     <div class="container">
         <div class="footer__grid">
             <div>
-                <a href="#" class="footer__logo">PT BY <span>IWONA</span></a>
+                <a href="#" class="footer__logo">KOZA <span>FIT</span></a>
                 <p class="footer__text">Ik help moeders hun fitnessdoelen te bereiken met persoonlijke training, groepslessen en voedingsadvies. Samen bouwen we aan een sterkere, energiekere versie van jezelf!</p>
                 <div class="footer__social">
                     <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <p class="footer__copyright">&copy; <?php echo date('Y'); ?> GROUP & 1-ON-1 PT BY IWONA. Alle rechten voorbehouden.</p>
+            <p class="footer__copyright">&copy; <?php echo date('Y'); ?> KOZA FIT. Alle rechten voorbehouden.</p>
         </div>
     </div>
 </footer>
